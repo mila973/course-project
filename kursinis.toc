@@ -2,27 +2,47 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Įvadas}{3}
+\contentsline {section}{Įvadas}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Medžiagos darbo tema dėstymo skyriai}{4}
+\contentsline {subsection}{Temos aktualumas}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.}Poskyris}{4}
+\contentsline {subsection}{Problema}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1.}Skirsnis}{5}
+\contentsline {subsection}{Darbo tikslas}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {1.1.1.1.}Straipsnis}{5}
+\contentsline {subsection}{Uždaviniai tikslui pasiekti}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2.}Skirsnis}{5}
+\contentsline {section}{Kas yra mikroservisai}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Skyrius}{6}
+\contentsline {subsection}{Monolitinės sistemos ir mikroservisų atsiradimas}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Poskyris}{6}
+\contentsline {subsection}{Mikroservisų pranašumai prieš monolitus}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Poskyris}{6}
+\contentsline {subsection}{Monolitinių sistemų skaidymas į mikroservisus}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{7}
+\contentsline {section}{Mikroservisų sistemos vidinių integracijų tipai}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{8}
+\contentsline {section}{Sinchroninės (angl. “synchronous”) integracijos}{6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Sinchroninių integracijų principas}{6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Sinchroninių integracijų technologijų tipai}{6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Asinchroninės (angl. “asynchronous”) integracijos}{7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Asinchroninių integracijų principas}{7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Asinchroninių integracijų technologijų tipai}{7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Skirtingų integracijų tipų privalumai ir trūkumai}{8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Rezultatai ir išvados}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Rezultatai}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{išvados}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Šaltiniai}{10}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -44,10 +64,4 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Santrumpos}{9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{9}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{1 priedas.\nobreakspace {}Neuroninio tinklo struktūra}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{2 priedas.\nobreakspace {}Eksperimentinio palyginimo rezultatai}{11}
+\contentsline {section}{Sąvokų apibrėžimai}{11}% 

@@ -131,8 +131,8 @@
         \large
         \singlespacing
         {\begin{tabular}[t]{l l l}%
-        \medskip Atliko: &\; \@status \\
-        \medskip\bigskip   &\; \@author \hfill &\@signatureplace \\
+        %\medskip Atliko: &\; \@status \\
+        \bigskip Atliko:   &\; \@author \hfill &\@signatureplace \\
         \bigskip Darbo vadovas: &\; \@supervisor \hfill &\@signatureplace \\
         % Recenzentas: &\; \@reviewer \hfill \@signatureplace
         \end{tabular} \par}%
@@ -144,8 +144,8 @@
         \large
         \singlespacing
         {\begin{tabular}[t]{l l l}%
-        \medskip Atliko: &\; \@status \\
-        \bigskip   &\; \@author \hfill &\@signatureplace \\
+        %\medskip Atliko: &\; \@status \\
+        \bigskip  Atliko: &\; \@author \hfill &\@signatureplace \\
         \medskip\bigskip &\; \@secondauthor \hfill &\@signatureplace \\
         \bigskip Darbo vadovas: &\; \@supervisor \hfill &\@signatureplace \\
         % Recenzentas: &\; \@reviewer \hfill \@signatureplace
@@ -192,6 +192,12 @@
 \newcommand{\sectionnonum}[1]{%
     \section*{#1}%
     \addcontentsline{toc}{section}{#1}% 
+}
+
+% Skyriaus pavadinimas, turinyje neturintis numerio
+\newcommand{\subsectionnonum}[1]{%
+    \subsection*{#1}%
+    \addcontentsline{toc}{subsection}{#1}%
 }
 
 % Skyriaus pavadinimas, neturintis numerio bei neįeinantis į turinį
