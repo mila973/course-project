@@ -12,56 +12,58 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Uždaviniai tikslui pasiekti}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Kas yra mikroservisai}{4}% 
+\contentsline {section}{\numberline {1.}Kas yra mikroservisai}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Monolitinės sistemos ir mikroservisų atsiradimas}{4}% 
+\contentsline {subsection}{\numberline {1.1.}Monolitinės sistemos ir mikroservisų atsiradimas}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Mikroservisų pranašumai prieš monolitus}{4}% 
+\contentsline {subsection}{\numberline {1.2.}Mikroservisų pranašumai prieš monolitus}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Monolitinių sistemų skaidymas į mikroservisus}{4}% 
+\contentsline {subsubsection}{\numberline {1.2.1.}Technologijų nevienalytiškumas (angl. \textit {„Technology Heterogeneity“})}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Mikroservisų sistemos vidinių integracijų tipai}{5}% 
+\contentsline {subsubsection}{\numberline {1.2.2.}Atsparumas (angl. \textit {„Resilience“})}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Sinchroninės (angl. “synchronous”) integracijos}{6}% 
+\contentsline {subsubsection}{\numberline {1.2.3.}Plečiamumas (angl. \textit {„Scaling“})}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Sinchroninių integracijų principas}{6}% 
+\contentsline {subsubsection}{\numberline {1.2.4.}Lengvas diegimas (angl. \textit {„Ease of Deployment“})}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Sinchroninių integracijų technologijų tipai}{6}% 
+\contentsline {subsubsection}{\numberline {1.2.5.}Organizacinis pasiskirstymas (angl. \textit {„Organizational Allignment“})}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Asinchroninės (angl. “asynchronous”) integracijos}{7}% 
+\contentsline {subsubsection}{\numberline {1.2.6.}Kompozicija (angl. \textit {„Composability“})}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Asinchroninių integracijų principas}{7}% 
+\contentsline {subsubsection}{\numberline {1.2.7.}Optimizuotas pakeičiamumas (angl. \textit {„Optimizing for Replaceability“})}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Asinchroninių integracijų technologijų tipai}{7}% 
+\contentsline {subsection}{\numberline {1.3.}Monolitinių sistemų skaidymas į mikroservisus}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Skirtingų integracijų tipų privalumai ir trūkumai}{8}% 
+\contentsline {section}{\numberline {2.}Mikroservisų sistemos vidinių integracijų tipai}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{9}% 
+\contentsline {section}{\numberline {3.}Sinchroninės (angl. “synchronous”) integracijos}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Rezultatai}{9}% 
+\contentsline {subsection}{\numberline {3.1.}Sinchroninių integracijų principas}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{išvados}{9}% 
+\contentsline {subsection}{\numberline {3.2.}Sinchroninių integracijų technologijų tipai}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{10}% 
+\contentsline {section}{\numberline {4.}Asinchroninės (angl. “asynchronous”) integracijos}{9}% 
 \defcounter {refsection}{0}\relax 
-\select@language {english}
+\contentsline {subsection}{\numberline {4.1.}Asinchroninių integracijų principas}{9}% 
 \defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {subsection}{\numberline {4.2.}Asinchroninių integracijų technologijų tipai}{9}% 
 \defcounter {refsection}{0}\relax 
-\select@language {english}
+\contentsline {section}{\numberline {5.}Skirtingų integracijų tipų privalumai ir trūkumai}{10}% 
 \defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {section}{\numberline {6.}Rezultatai ir išvados}{11}% 
 \defcounter {refsection}{0}\relax 
-\select@language {english}
+\contentsline {subsection}{\numberline {6.1.}Rezultatai}{11}% 
 \defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {subsection}{\numberline {6.2.}išvados}{11}% 
 \defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {section}{Šaltiniai}{12}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Sąvokų apibrėžimai}{11}% 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Sąvokų apibrėžimai}{13}% 

@@ -19,341 +19,182 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
-    \entry{PvzMagistrLt}{thesis}{}
+    \entry{Misc3}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=2f4033f9cee798209c26de78a4892cf6}{%
+           family={Al-Debagy},
+           familyi={A\bibinithyphendelim D\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=f8b5fd8a2d3ae3020f53c471f4493c6a}{%
+           family={Martinek},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{203551d5bdf9407cc68613bde1c84221}
+      \strng{fullhash}{203551d5bdf9407cc68613bde1c84221}
+      \strng{bibnamehash}{203551d5bdf9407cc68613bde1c84221}
+      \strng{authorbibnamehash}{203551d5bdf9407cc68613bde1c84221}
+      \strng{authornamehash}{203551d5bdf9407cc68613bde1c84221}
+      \strng{authorfullhash}{203551d5bdf9407cc68613bde1c84221}
+      \field{labelalpha}{AM18}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://arxiv.org/pdf/1905.07997.pdf}}
+      \field{langid}{english}
+      \field{title}{A Comparative Review of Microservices and Monolithic Architectures}
+      \field{year}{2018}
+    \endentry
+    \entry{Bk5}{book}{}
       \name{author}{1}{}{%
-        {{hash=4e9d814f943b720602080b976564a274}{%
-           family={Pavardonis},
-           familyi={P\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Universiteto pavadinimas}%
-      }
-      \strng{namehash}{4e9d814f943b720602080b976564a274}
-      \strng{fullhash}{4e9d814f943b720602080b976564a274}
-      \strng{bibnamehash}{4e9d814f943b720602080b976564a274}
-      \strng{authorbibnamehash}{4e9d814f943b720602080b976564a274}
-      \strng{authornamehash}{4e9d814f943b720602080b976564a274}
-      \strng{authorfullhash}{4e9d814f943b720602080b976564a274}
-      \field{labelalpha}{Pav05}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Magistrinio darbo pavadinimas}
-      \field{type}{mathesis}
-      \field{year}{2005}
-    \endentry
-    \entry{PvzKonfLt}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=da5c535b4d6daff7c839ac6cf6b0c9de}{%
-           family={Pavardenis},
-           familyi={P\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=5dd28d59d6a0bd9b848097245fbfecc8}{%
-           family={Pavardonis},
-           familyi={P\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=1f4e864af5cb6c2a0915deee8d25b783}{%
-           family={Pavardauskas},
-           familyi={P\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=1360595da22a5120db38eb4b84371239}{%
-           family={Pavardinskas},
-           familyi={P\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
+        {{hash=c220d3d05bc51d73a11987df88bd5f0a}{%
+           family={Feathers},
+           familyi={F\bibinitperiod},
+           given={Micheal\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Miestas, šalis}%
+        {Upper Saddle River, United States of America}%
       }
       \list{publisher}{1}{%
-        {Leidykla}%
+        {Prentice Hall PTR}%
       }
-      \strng{namehash}{4d1ebfaad138021f51538a39e8c44fc4}
-      \strng{fullhash}{4d1ebfaad138021f51538a39e8c44fc4}
-      \strng{bibnamehash}{4d1ebfaad138021f51538a39e8c44fc4}
-      \strng{authorbibnamehash}{4d1ebfaad138021f51538a39e8c44fc4}
-      \strng{authornamehash}{4d1ebfaad138021f51538a39e8c44fc4}
-      \strng{authorfullhash}{4d1ebfaad138021f51538a39e8c44fc4}
-      \field{labelalpha}{PPP\textsuperscript {+}02}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \strng{namehash}{c220d3d05bc51d73a11987df88bd5f0a}
+      \strng{fullhash}{c220d3d05bc51d73a11987df88bd5f0a}
+      \strng{bibnamehash}{c220d3d05bc51d73a11987df88bd5f0a}
+      \strng{authorbibnamehash}{c220d3d05bc51d73a11987df88bd5f0a}
+      \strng{authornamehash}{c220d3d05bc51d73a11987df88bd5f0a}
+      \strng{authorfullhash}{c220d3d05bc51d73a11987df88bd5f0a}
+      \field{labelalpha}{Fea04}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Rinkinio pavadinimas}
-      \field{title}{Straipsnio pavadinimas}
-      \field{year}{2002}
-      \field{pages}{3\bibrangedash 15}
-      \range{pages}{13}
-    \endentry
-    \entry{PvzKnygLt}{book}{}
-      \name{author}{3}{}{%
-        {{hash=da5c535b4d6daff7c839ac6cf6b0c9de}{%
-           family={Pavardenis},
-           familyi={P\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=5dd28d59d6a0bd9b848097245fbfecc8}{%
-           family={Pavardonis},
-           familyi={P\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=1f4e864af5cb6c2a0915deee8d25b783}{%
-           family={Pavardauskas},
-           familyi={P\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Miestas, šalis}%
-      }
-      \list{publisher}{1}{%
-        {Leidykla}%
-      }
-      \strng{namehash}{d8fcd80e0b12d0bb67687bf1926e6555}
-      \strng{fullhash}{d8fcd80e0b12d0bb67687bf1926e6555}
-      \strng{bibnamehash}{d8fcd80e0b12d0bb67687bf1926e6555}
-      \strng{authorbibnamehash}{d8fcd80e0b12d0bb67687bf1926e6555}
-      \strng{authornamehash}{d8fcd80e0b12d0bb67687bf1926e6555}
-      \strng{authorfullhash}{d8fcd80e0b12d0bb67687bf1926e6555}
-      \field{labelalpha}{PPP03}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{172 psl.}
-      \field{title}{Knygos pavadinimas}
-      \field{year}{2003}
-    \endentry
-    \entry{PvzElPubLt}{misc}{}
-      \name{author}{3}{}{%
-        {{hash=da5c535b4d6daff7c839ac6cf6b0c9de}{%
-           family={Pavardenis},
-           familyi={P\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=5dd28d59d6a0bd9b848097245fbfecc8}{%
-           family={Pavardonis},
-           familyi={P\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=aa7334f89e07f5d09dfd47505126d1f1}{%
-           family={Šavardauskas},
-           familyi={Š\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{05bc8edd3b8421b43fb79b99a4f43b47}
-      \strng{fullhash}{05bc8edd3b8421b43fb79b99a4f43b47}
-      \strng{bibnamehash}{05bc8edd3b8421b43fb79b99a4f43b47}
-      \strng{authorbibnamehash}{05bc8edd3b8421b43fb79b99a4f43b47}
-      \strng{authornamehash}{05bc8edd3b8421b43fb79b99a4f43b47}
-      \strng{authorfullhash}{05bc8edd3b8421b43fb79b99a4f43b47}
-      \field{labelalpha}{PPŠ04}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{http://example.com/kelias/iki/straipsnio.pdf}}
-      \field{note}{45 KB, tikrinta 2015-02-01}
-      \field{title}{Elektroninės publikacijos pavadinimas}
+      \field{note}{29 psl.}
+      \field{title}{Working Effectively with Legacy Code}
       \field{year}{2004}
     \endentry
-    \entry{PvzKonfEn}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=2dc846e35540b63f2405b6344978c699}{%
-           family={Surname},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fb2113b65e7834f2bc579b4b781bfa88}{%
-           family={Tsurname},
-           familyi={T\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=ba4b3d7aafc25fb6b5f4c0942e9886c7}{%
-           family={Usurname},
-           familyi={U\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=67a998178f12cacc76e208b099d90f54}{%
-           family={Vsurname},
-           familyi={V\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
+    \entry{Misc6}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=312ac886938a9b2be4f8eb607567fe4c}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bc0d2dbdc2f0a7a80ec11019d6142dbb}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {City, country}%
-      }
-      \list{publisher}{1}{%
-        {Publisher}%
-      }
-      \strng{namehash}{263723f3d4274880a800ed2dcee20c0a}
-      \strng{fullhash}{263723f3d4274880a800ed2dcee20c0a}
-      \strng{bibnamehash}{263723f3d4274880a800ed2dcee20c0a}
-      \strng{authorbibnamehash}{263723f3d4274880a800ed2dcee20c0a}
-      \strng{authornamehash}{263723f3d4274880a800ed2dcee20c0a}
-      \strng{authorfullhash}{263723f3d4274880a800ed2dcee20c0a}
-      \field{labelalpha}{STU\textsuperscript {+}02}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \strng{namehash}{416876065d6eb7d05b219dfec144635d}
+      \strng{fullhash}{416876065d6eb7d05b219dfec144635d}
+      \strng{bibnamehash}{416876065d6eb7d05b219dfec144635d}
+      \strng{authorbibnamehash}{416876065d6eb7d05b219dfec144635d}
+      \strng{authornamehash}{416876065d6eb7d05b219dfec144635d}
+      \strng{authorfullhash}{416876065d6eb7d05b219dfec144635d}
+      \field{labelalpha}{FL14}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Conference book title}
+      \field{howpublished}{\url{https://martinfowler.com/articles/microservices.html}}
       \field{langid}{english}
-      \field{title}{Article title}
-      \field{year}{2002}
-      \field{pages}{3\bibrangedash 15}
-      \range{pages}{13}
+      \field{title}{Microservices}
+      \field{year}{2014}
     \endentry
-    \entry{PvzStraipsnEn}{article}{}
-      \name{author}{3}{}{%
-        {{hash=2dc846e35540b63f2405b6344978c699}{%
-           family={Surname},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fb2113b65e7834f2bc579b4b781bfa88}{%
-           family={Tsurname},
-           familyi={T\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=ba4b3d7aafc25fb6b5f4c0942e9886c7}{%
-           family={Usurname},
-           familyi={U\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{fullhash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{bibnamehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{authorbibnamehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{authornamehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{authorfullhash}{da2362ee5b29aad39bb988e753de67b3}
-      \field{extraname}{1}
-      \field{labelalpha}{STU01}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal Title}
-      \field{langid}{english}
-      \field{title}{Article Title}
-      \field{volume}{IV}
-      \field{year}{2001}
-      \field{pages}{3\bibrangedash 15}
-      \range{pages}{13}
-    \endentry
-    \entry{PvzKnygEn}{book}{}
-      \name{author}{3}{}{%
-        {{hash=2dc846e35540b63f2405b6344978c699}{%
-           family={Surname},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fb2113b65e7834f2bc579b4b781bfa88}{%
-           family={Tsurname},
-           familyi={T\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=ba4b3d7aafc25fb6b5f4c0942e9886c7}{%
-           family={Usurname},
-           familyi={U\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {City, country}%
-      }
-      \list{publisher}{1}{%
-        {Publisher}%
-      }
-      \strng{namehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{fullhash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{bibnamehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{authorbibnamehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{authornamehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{authorfullhash}{da2362ee5b29aad39bb988e753de67b3}
-      \field{extraname}{2}
-      \field{labelalpha}{STU03}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{note}{172 p.}
-      \field{title}{Book title}
-      \field{year}{2003}
-    \endentry
-    \entry{PvzElPubEn}{misc}{}
-      \name{author}{3}{}{%
-        {{hash=2dc846e35540b63f2405b6344978c699}{%
-           family={Surname},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fb2113b65e7834f2bc579b4b781bfa88}{%
-           family={Tsurname},
-           familyi={T\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=ba4b3d7aafc25fb6b5f4c0942e9886c7}{%
-           family={Usurname},
-           familyi={U\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{fullhash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{bibnamehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{authorbibnamehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{authornamehash}{da2362ee5b29aad39bb988e753de67b3}
-      \strng{authorfullhash}{da2362ee5b29aad39bb988e753de67b3}
-      \field{extraname}{3}
-      \field{labelalpha}{STU04}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{http://example.com/path/to/the/article.pdf}}
-      \field{langid}{english}
-      \field{note}{45 KB, accessed 2015-02-01.}
-      \field{title}{Online Source Title}
-      \field{year}{2004}
-    \endentry
-    \entry{PvzPhdEn}{thesis}{}
+    \entry{Bk1}{book}{}
       \name{author}{1}{}{%
-        {{hash=2dc846e35540b63f2405b6344978c699}{%
-           family={Surname},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
+        {{hash=a71a3177c13dcefd748f58c731603e1e}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Susan\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Title of university}%
+      \list{location}{1}{%
+        {Sebastopol, United States of America}%
       }
-      \strng{namehash}{2dc846e35540b63f2405b6344978c699}
-      \strng{fullhash}{2dc846e35540b63f2405b6344978c699}
-      \strng{bibnamehash}{2dc846e35540b63f2405b6344978c699}
-      \strng{authorbibnamehash}{2dc846e35540b63f2405b6344978c699}
-      \strng{authornamehash}{2dc846e35540b63f2405b6344978c699}
-      \strng{authorfullhash}{2dc846e35540b63f2405b6344978c699}
-      \field{labelalpha}{Sur05}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{a71a3177c13dcefd748f58c731603e1e}
+      \strng{fullhash}{a71a3177c13dcefd748f58c731603e1e}
+      \strng{bibnamehash}{a71a3177c13dcefd748f58c731603e1e}
+      \strng{authorbibnamehash}{a71a3177c13dcefd748f58c731603e1e}
+      \strng{authornamehash}{a71a3177c13dcefd748f58c731603e1e}
+      \strng{authorfullhash}{a71a3177c13dcefd748f58c731603e1e}
+      \field{labelalpha}{Fow17}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{Ttitle of PhD thesis}
-      \field{type}{phdthesis}
-      \field{year}{2005}
+      \field{note}{1 psl.}
+      \field{title}{Production-Ready Microservices}
+      \field{year}{2017}
+    \endentry
+    \entry{Bk2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b6be43602c2787d279f8522a7d9713db}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Sebastopol, United States of America}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{b6be43602c2787d279f8522a7d9713db}
+      \strng{fullhash}{b6be43602c2787d279f8522a7d9713db}
+      \strng{bibnamehash}{b6be43602c2787d279f8522a7d9713db}
+      \strng{authorbibnamehash}{b6be43602c2787d279f8522a7d9713db}
+      \strng{authornamehash}{b6be43602c2787d279f8522a7d9713db}
+      \strng{authorfullhash}{b6be43602c2787d279f8522a7d9713db}
+      \field{labelalpha}{New15}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{39 psl.}
+      \field{title}{Building Microservices: Designing Fine-Grained Systems}
+      \field{year}{2015}
+    \endentry
+    \entry{Bk4}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9b6d934baf396a5b811703e547fb4b38}{%
+           family={Raymond},
+           familyi={R\bibinitperiod},
+           given={Eric\bibnamedelima Steven},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, United States of America}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{fullhash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{bibnamehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{authorbibnamehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{authornamehash}{9b6d934baf396a5b811703e547fb4b38}
+      \strng{authorfullhash}{9b6d934baf396a5b811703e547fb4b38}
+      \field{labelalpha}{Ray03}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{1 psl.}
+      \field{title}{The Art of UNIX Programming}
+      \field{year}{2003}
     \endentry
   \enddatalist
+  \missing{Mis7}
 \endrefsection
 \endinput
 

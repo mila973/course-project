@@ -1,14 +1,16 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'kursinis.blg'
-[40] biber-darwin:315> INFO - === Sun Apr 19, 2020, 13:59:52
-[62] Biber.pm:371> INFO - Reading 'kursinis.bcf'
-[148] Biber.pm:889> INFO - Found 9 citekeys in bib section 0
-[160] Biber.pm:4093> INFO - Processing section 0
-[171] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliografija.bib' for section 0
-[172] bibtex.pm:1523> INFO - LaTeX decoding ...
-[187] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliografija.bib'
-[258] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[258] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[258] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'lt-LT'
-[267] bbl.pm:636> INFO - Writing 'kursinis.bbl' with encoding 'UTF-8'
-[271] bbl.pm:739> INFO - Output to kursinis.bbl
+[40] biber-darwin:315> INFO - === Sun May 10, 2020, 19:29:30
+[64] Biber.pm:371> INFO - Reading 'kursinis.bcf'
+[149] Biber.pm:889> INFO - Found 7 citekeys in bib section 0
+[165] Biber.pm:4093> INFO - Processing section 0
+[177] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliografija.bib' for section 0
+[179] bibtex.pm:1523> INFO - LaTeX decoding ...
+[196] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliografija.bib'
+[218] Utils.pm:193> WARN - I didn't find a database entry for 'Mis7' (section 0)
+[233] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[233] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[234] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'lt-LT'
+[240] bbl.pm:636> INFO - Writing 'kursinis.bbl' with encoding 'UTF-8'
+[242] bbl.pm:739> INFO - Output to kursinis.bbl
+[243] Biber.pm:110> INFO - WARNINGS: 1
