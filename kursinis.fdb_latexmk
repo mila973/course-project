@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1589128054 "/Users/lukasmilasauskas/Documents/MIF/course-project/kursinis.tex" "/Users/lukasmilasauskas/Documents/MIF/course-project/kursinis.pdf" "kursinis" 1589128054
-  "/Users/lukasmilasauskas/Documents/MIF/course-project/kursinis.aux" 1589128054 8 a94a2480d3289e625eea47cd1b285758 ""
+["pdflatex"] 1589128530 "/Users/lukasmilasauskas/Documents/MIF/course-project/kursinis.tex" "/Users/lukasmilasauskas/Documents/MIF/course-project/kursinis.pdf" "kursinis" 1589128530
+  "/Users/lukasmilasauskas/Documents/MIF/course-project/kursinis.aux" 1589128530 8 a94a2480d3289e625eea47cd1b285758 ""
   "/Users/lukasmilasauskas/Documents/MIF/course-project/kursinis.tex" 1587293802 1472 3bec269378a7d4ec5974f6637d3d47a8 ""
-  "/dev/null" 1589128033 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1589128513 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
@@ -29,5 +29,5 @@
   "kursinis.tex" 1587293802 1472 3bec269378a7d4ec5974f6637d3d47a8 ""
   (generated)
   "/Users/lukasmilasauskas/Documents/MIF/course-project/kursinis.log"
-  "kursinis.log"
   "/Users/lukasmilasauskas/Documents/MIF/course-project/kursinis.pdf"
+  "kursinis.log"
