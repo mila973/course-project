@@ -48,6 +48,60 @@
       \field{title}{A Comparative Review of Microservices and Monolithic Architectures}
       \field{year}{2018}
     \endentry
+    \entry{Misc7}{misc}{}
+      \name{author}{7}{}{%
+        {{hash=05023247140dc3d76c65df203f9a1ca5}{%
+           family={Dragoni},
+           familyi={D\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=59ec2277e593c4bc2ec6a6f2db160556}{%
+           family={Giallorenzo},
+           familyi={G\bibinitperiod},
+           given={Saverio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6da55768265515548c9c9d2fdd5842b3}{%
+           family={Lafuente},
+           familyi={L\bibinitperiod},
+           given={Alberto\bibnamedelima Lluch},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=147f187ab39b8aa10377370e35dd100c}{%
+           family={Mazzara},
+           familyi={M\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=94aec34b0ab3aab8d0b52c5b042d902c}{%
+           family={Montesi},
+           familyi={M\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1c3eb491b55e0758a57b92268522b54a}{%
+           family={Mustafin},
+           familyi={M\bibinitperiod},
+           given={Ruslan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4fce574c6bb2206fb51f0feeab19c762}{%
+           family={Safina},
+           familyi={S\bibinitperiod},
+           given={Larisa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{240b78060dd3082662022fa0fc04988e}
+      \strng{fullhash}{240b78060dd3082662022fa0fc04988e}
+      \strng{bibnamehash}{240b78060dd3082662022fa0fc04988e}
+      \strng{authorbibnamehash}{240b78060dd3082662022fa0fc04988e}
+      \strng{authornamehash}{240b78060dd3082662022fa0fc04988e}
+      \strng{authorfullhash}{240b78060dd3082662022fa0fc04988e}
+      \field{labelalpha}{DGL\textsuperscript {+}17}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://arxiv.org/pdf/1606.04036.pdf}}
+      \field{langid}{english}
+      \field{title}{Microservices: yesterday, today, and tomorrow}
+      \field{year}{2017}
+    \endentry
     \entry{Bk5}{book}{}
       \name{author}{1}{}{%
         {{hash=c220d3d05bc51d73a11987df88bd5f0a}{%
@@ -133,6 +187,89 @@
       \field{labeltitlesource}{title}
       \field{note}{1 psl.}
       \field{title}{Production-Ready Microservices}
+      \field{year}{2017}
+    \endentry
+    \entry{Bk6}{book}{}
+      \name{author}{3}{}{%
+        {{hash=0466184af92918168fc9c6f0aeed06be}{%
+           family={Hockmann},
+           familyi={H\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=327ee9758ff084efdab158519a0a85d9}{%
+           family={Knoell},
+           familyi={K\bibinitperiod},
+           given={Heinz\bibnamedelima D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=468cfc57e487c1293aa214a146039f3c}{%
+           family={Leiss},
+           familyi={L\bibinitperiod},
+           given={Ernst\bibnamedelima L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{bbe23fa4c848b2bee66295afa77a8d29}
+      \strng{fullhash}{bbe23fa4c848b2bee66295afa77a8d29}
+      \strng{bibnamehash}{bbe23fa4c848b2bee66295afa77a8d29}
+      \strng{authorbibnamehash}{bbe23fa4c848b2bee66295afa77a8d29}
+      \strng{authornamehash}{bbe23fa4c848b2bee66295afa77a8d29}
+      \strng{authorfullhash}{bbe23fa4c848b2bee66295afa77a8d29}
+      \field{labelalpha}{HKL09}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{173 skyrius}
+      \field{title}{Encyclopedia of Multimedia Technology and Networking, Second Edition}
+      \field{year}{2009}
+    \endentry
+    \entry{Misc5}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a300661e667e0091f1684ae49a454e1e}{%
+           family={Loisel},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a300661e667e0091f1684ae49a454e1e}
+      \strng{fullhash}{a300661e667e0091f1684ae49a454e1e}
+      \strng{bibnamehash}{a300661e667e0091f1684ae49a454e1e}
+      \strng{authorbibnamehash}{a300661e667e0091f1684ae49a454e1e}
+      \strng{authornamehash}{a300661e667e0091f1684ae49a454e1e}
+      \strng{authorfullhash}{a300661e667e0091f1684ae49a454e1e}
+      \field{labelalpha}{Loi18}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://octoperf.com/blog/2018/03/26/soap-vs-rest/}}
+      \field{langid}{english}
+      \field{title}{SOAP vs REST (WHY COMPARING THEM IS A NONSENSE}
+      \field{year}{2018}
+    \endentry
+    \entry{MstrThs2}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=978d975fcacffabc9531ffe257aa0777}{%
+           family={Makkonen},
+           familyi={M\bibinitperiod},
+           given={Joni},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Aalto University}%
+      }
+      \strng{namehash}{978d975fcacffabc9531ffe257aa0777}
+      \strng{fullhash}{978d975fcacffabc9531ffe257aa0777}
+      \strng{bibnamehash}{978d975fcacffabc9531ffe257aa0777}
+      \strng{authorbibnamehash}{978d975fcacffabc9531ffe257aa0777}
+      \strng{authornamehash}{978d975fcacffabc9531ffe257aa0777}
+      \strng{authorfullhash}{978d975fcacffabc9531ffe257aa0777}
+      \field{labelalpha}{Mak17}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Performance and usage comparison between REST and SOAP web services.}
+      \field{type}{mathesis}
       \field{year}{2017}
     \endentry
     \entry{Bk2}{book}{}

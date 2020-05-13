@@ -1995,7 +1995,7 @@
     <bcf:datasource type="file" datatype="bibtex">bibliografija.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Mis7</bcf:citekey>
+    <bcf:citekey order="1">Misc7</bcf:citekey>
     <bcf:citekey order="2">Mis7</bcf:citekey>
     <bcf:citekey order="3">Misc6</bcf:citekey>
     <bcf:citekey order="4">Bk4</bcf:citekey>
@@ -2003,6 +2003,11 @@
     <bcf:citekey order="6">Misc3</bcf:citekey>
     <bcf:citekey order="7">Bk5</bcf:citekey>
     <bcf:citekey order="8">Bk1</bcf:citekey>
+    <bcf:citekey order="9">Bk2</bcf:citekey>
+    <bcf:citekey order="10">Bk2</bcf:citekey>
+    <bcf:citekey order="11">Bk6</bcf:citekey>
+    <bcf:citekey order="12">Misc5</bcf:citekey>
+    <bcf:citekey order="13">MstrThs2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

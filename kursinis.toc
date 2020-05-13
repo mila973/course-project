@@ -36,27 +36,33 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}Mikroservisų sistemos vidinių integracijų tipai}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Sinchroninės (angl. “synchronous”) integracijos}{8}% 
+\contentsline {subsection}{\numberline {2.1.}Servisų komunikavimas per duomenų bazę}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Sinchroninių integracijų principas}{8}% 
+\contentsline {section}{\numberline {3.}Sinchroninės (angl. “synchronous”) integracijos}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Sinchroninių integracijų technologijų tipai}{8}% 
+\contentsline {subsection}{\numberline {3.1.}Sinchroninių integracijų principas}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Asinchroninės (angl. “asynchronous”) integracijos}{9}% 
+\contentsline {subsection}{\numberline {3.2.}Sinchroninių integracijų technologijų tipai}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Asinchroninių integracijų principas}{9}% 
+\contentsline {section}{\numberline {4.}Asinchroninės (angl. “asynchronous”) integracijos}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Asinchroninių integracijų technologijų tipai}{9}% 
+\contentsline {subsection}{\numberline {4.1.}Asinchroninių integracijų principas}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}Skirtingų integracijų tipų privalumai ir trūkumai}{10}% 
+\contentsline {subsection}{\numberline {4.2.}Asinchroninių integracijų technologijų tipai}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}Rezultatai ir išvados}{11}% 
+\contentsline {section}{\numberline {5.}Skirtingų integracijų tipų privalumai ir trūkumai}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.}Rezultatai}{11}% 
+\contentsline {section}{\numberline {6.}Rezultatai ir išvados}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.}išvados}{11}% 
+\contentsline {subsection}{\numberline {6.1.}Rezultatai}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{12}% 
+\contentsline {subsection}{\numberline {6.2.}išvados}{13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Šaltiniai}{14}% 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -66,4 +72,8 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Sąvokų apibrėžimai}{13}% 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Sąvokų apibrėžimai}{15}% 
