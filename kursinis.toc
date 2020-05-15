@@ -42,23 +42,35 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.}Sinchroninių integracijų principas}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Sinchroninių integracijų technologijų tipai}{9}% 
+\contentsline {subsection}{\numberline {3.2.}Sinchroninių integracijų technologijos}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Asinchroninės (angl. “asynchronous”) integracijos}{11}% 
+\contentsline {section}{\numberline {4.}Asinchroninės (angl. “asynchronous”) integracijos}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Asinchroninių integracijų principas}{11}% 
+\contentsline {subsection}{\numberline {4.1.}Asinchroninių integracijų principas}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Asinchroninių integracijų technologijų tipai}{11}% 
+\contentsline {subsection}{\numberline {4.2.}Asinchroninių integracijų technologijos}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}Skirtingų integracijų tipų privalumai ir trūkumai}{12}% 
+\contentsline {section}{\numberline {5.}Skirtingų integracijų tipų privalumai ir trūkumai}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}Rezultatai ir išvados}{13}% 
+\contentsline {subsection}{\numberline {5.1.}Silpnas sujungimas ir stiprus sąryšis (angl. \textit {„Loose Coupling and High Cohesion“})}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.}Rezultatai}{13}% 
+\contentsline {subsection}{\numberline {5.2.}Efektyvumas}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.}išvados}{13}% 
+\contentsline {subsection}{\numberline {5.3.}Implementacijos kompleksiškumas}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{14}% 
+\contentsline {subsection}{\numberline {5.4.}Veiksmų istorija}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.}Įvykių sekos užtikrinimas}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.}Servisų perpanaudojimas}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.}Rezultatai ir išvados}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Šaltiniai}{19}% 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -76,4 +88,14 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Sąvokų apibrėžimai}{15}% 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}

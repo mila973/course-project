@@ -1,6 +1,46 @@
 \section{Rezultatai ir išvados}
 
-\subsection{Rezultatai}
-Rezultatai
-\subsection{išvados}
-išvados
+Šiame darbe buvo išanalizuoti pagrindiniai komunikavimo integracijų mikroservisų architektūrose tipai, pateiktos mikroservisų
+atsiradimo priežastys ir aptarti mikroservisų architektūrų pranašumai prie monolitines sistemas. Taip pat įvardinta tinkamo integracijų 
+pasirinkimo svarba. Buvo išskirti pagrindiniai mikroservisų komunikavimo tipai:
+
+\begin{enumerate}
+	\item Servisų jungimas per duomenų bazę.
+	\item Sinchroninės užklausos/atsakymo (angl. \textit{„request/response“}) integracijos.
+	\item Asinchroninės įvykiais paremtos (angl. \textit{„event-based“}) integracijos.
+\end{enumerate}
+
+Darbe buvo detaliau aptarti sinchroniniai ir asinchroniniai komunikavimai, tačiau taip pat
+paminėtas ir apibūdintas komunikavimas per duomenų bazę tipas.
+Apžvelgti dviejų pagrindinių tipų principai. Išskirti skirtingų tipų komunikavimo privalumai ir trūkumai.
+Apibūdintos integracijų tipų panaudojimas modelinėse situacijose. Pabaigoje pateiktos pragrindiniai pasirinkimo tarp skirtingų technologijų
+aspektai ir priežastys.
+\break
+Pasinaudojus pateikta informacija, buvo įgyvendinti pagrindiniai darbo uždaviniai:
+
+\begin{itemize}
+	\item Apibūdinti, kas yra mikroservisai, kuo jie ypatingi, kaip jie projektuojami, remiantis šaltiniais.
+	\item Išskirti pagrindinius integracijų ir komunikavimo tipus ir jų savybes.
+	\item Palyginti skirtingus komunikavimo būdus mikroservisų architektūrose.
+	\item Pateikti rekomendacijas, kokias atvejais kokį tipą geriausia naudoti.
+\end{itemize}
+
+Darbo uždaviniams įgyvendinti buvo naudojamos ne tik teorinės žinios iš įvairių šaltinių, tačiau ir istoriniai faktai, 
+padėję paaiškinti tam tikrus mikroservisų ir jų komunikavimo aspektus.
+\break
+Pateikus darbo rezultatus galima suformuluoti tokias išvadas:
+
+\begin{itemize}
+  \item Mikroservisų architektūrose pasirinkimas tarp skirtingų komunikavimo tipų yra labai svarbus, nes tai lemia sitemos veikimo stilių ir daug kitų aspektų.
+	\item Sinchroninės integracijos yra paprastesnės ir legviau įgyvendinamos. Jos pranašesnės siekiant greitai gauti rezultatus, be kurių, nebūtų galima vykdyti
+	sekančių veiksmų informacinėje sistemoje.
+	\item Asinchroninės integracijos yra technologiškai pranašesnės ir žymiai geriau atitinką pagrindinius mikroservisų aspektus, tokius kaip: silpnas sujungimas ir stiprus sąryšis.
+	\item Asinchroninės integracijos yra efektyvesnės už sinchronines integracijas, dėl savo lygiagretinimo savybių.
+	\item Sinchroninis komunikavimas yra sklandesnis ir paprastesnis, dėl to paliekama mažiau vietos klaidoms.
+	\item Iš įmonių pusės daug naudingiau yra kurti sinchronines sistemas dėl kaštų.
+\end{itemize}
+
+Taigi darytina išvada, jog projektuojant mikroservisų architektūromis paremtą PĮ yra labai svarbu atsižvelgti į sistemos poreikius ir gerai apsvarstyti, kokiu komunikavimo
+stiliumi bus pasitikima. Atsižvelgiant į suformuluotas išvadas, galima teigti, kad nors asinchroninės komunikacijos ne visada yra lengviausias būdas, tačiau 
+tokia komunikacija apibūdina geriausias mikroservisų praktikas ir paradigmas.
+

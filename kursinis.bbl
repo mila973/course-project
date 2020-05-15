@@ -48,6 +48,35 @@
       \field{title}{A Comparative Review of Microservices and Monolithic Architectures}
       \field{year}{2018}
     \endentry
+    \entry{Misc4}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=91039e57a5511d424e5c170cd594dd91}{%
+           family={DOBBELAERE},
+           familyi={D\bibinitperiod},
+           given={PHILIPPE},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4f1d599a305bbed209ffaba8bde690e7}{%
+           family={ESMAILI},
+           familyi={E\bibinitperiod},
+           given={KYUMARS\bibnamedelima SHEYKH},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b6f99b86e425152dfa3aecb84a36e1b}
+      \strng{fullhash}{2b6f99b86e425152dfa3aecb84a36e1b}
+      \strng{bibnamehash}{2b6f99b86e425152dfa3aecb84a36e1b}
+      \strng{authorbibnamehash}{2b6f99b86e425152dfa3aecb84a36e1b}
+      \strng{authornamehash}{2b6f99b86e425152dfa3aecb84a36e1b}
+      \strng{authorfullhash}{2b6f99b86e425152dfa3aecb84a36e1b}
+      \field{labelalpha}{DE17}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://arxiv.org/pdf/1709.00333.pdf}}
+      \field{langid}{english}
+      \field{title}{Kafka versus RabbitMQ}
+      \field{year}{2017}
+    \endentry
     \entry{Misc7}{misc}{}
       \name{author}{7}{}{%
         {{hash=05023247140dc3d76c65df203f9a1ca5}{%
@@ -222,6 +251,61 @@
       \field{title}{Encyclopedia of Multimedia Technology and Networking, Second Edition}
       \field{year}{2009}
     \endentry
+    \entry{Sur1}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=d79a1a9e43c5c23c10019167c66493c9}{%
+           family={John},
+           familyi={J\bibinitperiod},
+           given={Vineet},
+           giveni={V\bibinitperiod}}}%
+        {{hash=30270e36416f7eb3ebc155c1a6922739}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xia},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2155712653dcaa178be782c5f50ab6b}
+      \strng{fullhash}{c2155712653dcaa178be782c5f50ab6b}
+      \strng{bibnamehash}{c2155712653dcaa178be782c5f50ab6b}
+      \strng{authorbibnamehash}{c2155712653dcaa178be782c5f50ab6b}
+      \strng{authornamehash}{c2155712653dcaa178be782c5f50ab6b}
+      \strng{authorfullhash}{c2155712653dcaa178be782c5f50ab6b}
+      \field{labelalpha}{JL17}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://arxiv.org/pdf/1704.00411.pdf}}
+      \field{langid}{english}
+      \field{title}{A Survey of Distributed Message Broker Queues}
+      \field{year}{2017}
+    \endentry
+    \entry{MstrThs1}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=467ad8494d4186830c77e5d09b98ac53}{%
+           family={Johnses},
+           familyi={J\bibinitperiod},
+           given={Espen},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Bergensis Universitas}%
+      }
+      \strng{namehash}{467ad8494d4186830c77e5d09b98ac53}
+      \strng{fullhash}{467ad8494d4186830c77e5d09b98ac53}
+      \strng{bibnamehash}{467ad8494d4186830c77e5d09b98ac53}
+      \strng{authorbibnamehash}{467ad8494d4186830c77e5d09b98ac53}
+      \strng{authornamehash}{467ad8494d4186830c77e5d09b98ac53}
+      \strng{authorfullhash}{467ad8494d4186830c77e5d09b98ac53}
+      \field{labelalpha}{Joh18}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reliable Asynchronous Communication in Distributed Systems}
+      \field{type}{mathesis}
+      \field{year}{2018}
+    \endentry
     \entry{Misc5}{misc}{}
       \name{author}{1}{}{%
         {{hash=a300661e667e0091f1684ae49a454e1e}{%
@@ -329,6 +413,103 @@
       \field{note}{1 psl.}
       \field{title}{The Art of UNIX Programming}
       \field{year}{2003}
+    \endentry
+    \entry{Misc8}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c7c642ec21380d51ff36bede425a5ee3}{%
+           family={Sharvari\bibnamedelima T},
+           familyi={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Sowmya\bibnamedelimb Nag\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7c642ec21380d51ff36bede425a5ee3}
+      \strng{fullhash}{c7c642ec21380d51ff36bede425a5ee3}
+      \strng{bibnamehash}{c7c642ec21380d51ff36bede425a5ee3}
+      \strng{authorbibnamehash}{c7c642ec21380d51ff36bede425a5ee3}
+      \strng{authornamehash}{c7c642ec21380d51ff36bede425a5ee3}
+      \strng{authorfullhash}{c7c642ec21380d51ff36bede425a5ee3}
+      \field{labelalpha}{Sha19}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://arxiv.org/pdf/1912.03715.pdf}}
+      \field{langid}{english}
+      \field{title}{A study on Modern Messaging Systems - Kafka, RabbitMQ and NATS Streaming}
+      \field{year}{2019}
+    \endentry
+    \entry{Bk3}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d2e070140dc737352a5ebc1f39e1c849}{%
+           family={S.Linthicum},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, United States of America}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{d2e070140dc737352a5ebc1f39e1c849}
+      \strng{fullhash}{d2e070140dc737352a5ebc1f39e1c849}
+      \strng{bibnamehash}{d2e070140dc737352a5ebc1f39e1c849}
+      \strng{authorbibnamehash}{d2e070140dc737352a5ebc1f39e1c849}
+      \strng{authornamehash}{d2e070140dc737352a5ebc1f39e1c849}
+      \strng{authorfullhash}{d2e070140dc737352a5ebc1f39e1c849}
+      \field{labelalpha}{SLi00}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{1 psl.}
+      \field{title}{Enterprise Application Integration}
+      \field{year}{2000}
+    \endentry
+    \entry{Misc1}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=0a22759768257fba9df12457737d6fd0}{%
+           family={Shariq},
+           familyi={S\bibinitperiod},
+           given={Sabah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9718e209829cd595c97c8a0c7ce21f03}{%
+           family={Wenzel},
+           familyi={W\bibinitperiod},
+           given={Maira},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9f5be4f1d227bd6f754a35e74781a10b}{%
+           family={Parente},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=016d95938654ba8ca7f7b7cbdbd9e4ad}{%
+           family={Anil},
+           familyi={A\bibinitperiod},
+           given={Nish},
+           giveni={N\bibinitperiod}}}%
+        {{hash=cb9f04e13d1536edb845d4e168372709}{%
+           family={Veloso},
+           familyi={V\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd5c8c399cf328cdb51c593e0924770e}
+      \strng{fullhash}{dd5c8c399cf328cdb51c593e0924770e}
+      \strng{bibnamehash}{dd5c8c399cf328cdb51c593e0924770e}
+      \strng{authorbibnamehash}{dd5c8c399cf328cdb51c593e0924770e}
+      \strng{authornamehash}{dd5c8c399cf328cdb51c593e0924770e}
+      \strng{authorfullhash}{dd5c8c399cf328cdb51c593e0924770e}
+      \field{labelalpha}{SWP\textsuperscript {+}20}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture}}
+      \field{langid}{english}
+      \field{title}{Communication in a microservice architecture}
+      \field{year}{2020}
     \endentry
   \enddatalist
   \missing{Mis7}

@@ -2008,6 +2008,14 @@
     <bcf:citekey order="11">Bk6</bcf:citekey>
     <bcf:citekey order="12">Misc5</bcf:citekey>
     <bcf:citekey order="13">MstrThs2</bcf:citekey>
+    <bcf:citekey order="14">Bk2</bcf:citekey>
+    <bcf:citekey order="15">MstrThs1</bcf:citekey>
+    <bcf:citekey order="16">Sur1</bcf:citekey>
+    <bcf:citekey order="17">Misc8</bcf:citekey>
+    <bcf:citekey order="18">Misc4</bcf:citekey>
+    <bcf:citekey order="19">Bk2</bcf:citekey>
+    <bcf:citekey order="20">Misc1</bcf:citekey>
+    <bcf:citekey order="21">Bk3</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

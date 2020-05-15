@@ -7,13 +7,13 @@ Interneto naršyklėje suvedus puslapio pavadinimą, HTTP protokolo pagalba, mum
 Klientas (tai yra mūsų naršyklė) ir serveris (tai yra interneto svetainės savininkas arba įmonė teikianti svetainių talpinimo paslaugas).
 Klientas siunčia užklausą serveriui prašydamas resurso, šiuo atveju tai yra mūsų norimos pamatyti svetainės turinio, ir laukia kol svetainė atiduos atsakymą į užklausą.
 Serveris reaguodamas į kliento užklausą grąžina atsakymą, kuris būti arba svetainės turinys, arba grąžinama klaida, pavyzdžiui kad toks resuras neegzistuoja arba 
-klientas yra neautorizuotas šios svetainės lankytojas. Šis bendravimas yra perteiktas pateikta schema (\ref{img:synchronous_model} pav.):
+klientas yra neautorizuotas šios svetainės lankytojas. Šis bendravimas yra perteiktas pateikta schema (\ref{img:synchronous-model} pav.):
 
 \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.6]{img/synchronous_model}
+  \includegraphics[scale=0.6]{img/synchronous-model}
   \caption{Sinchroninio komunikavimo schema.}
-  \label{img:synchronous_model}
+  \label{img:synchronous-model}
 \end{figure}
 
 Taigi šis modelis puikiai gali veikti ir mikroservisų sistemoje. Vienas servisas siunčia užklausą į kitą servisą norėdamas gauti
@@ -21,7 +21,32 @@ informaciją arba inicijuoti, kokį nors veiksmą. Šis modelis ypatingas tuo, k
 žinos ar sėkmingai pavyko atlikti norimą veiksmą. Šis modelis yra labai geras, kai tik įvykus sėkmingai užklausai leidžiame vartotojui vykdyti
 kitas operacijas ir kitaip bendrauti su mūsų sistema, tai yra vartotojo autentifikacija ir autorizacija.
 
-\subsection{Sinchroninių integracijų technologijų tipai}
+Siekant geriau išaiškinti, kaip veikia sinchroninis komunikavimas mikroservisų sistemose, pateikiama modelinė situacija, kur komunikavimas vyktų būtent
+minėtu būdu. Įsivaizduokime, kad egzistuoja universiteto informacinė sistema, kuri yra suprojektuota pasiremiant mikroservisų
+architektiniu modeliu. Šioje sistemoje yra atskiri servisai atsakingi už studentų duomenų tvarkymą, dokumentų generavimą, elektroninių laiškų siuntimą, tvarkaraščių sudarymą 
+ir saugojimą. Be šių servisų sistema turėtų turėti ir daug kitos paskirties mikroservisų, bet dabar aptarsime tik šiuos.
+Taigi, sinchroniniu komunikavimo modeliu servisas atsakingas už studentų duomenų tvarkymą bus informuotas apie naujo studento kūrimo inicijavimą.
+Šis servisas savo duomenų bazėje sukuria naują įrašą ir vykdo tokius veiksmus eilės tvarka:
+
+\begin{enumerate}
+  \item Siunčiama užklausa į dokumentų generavimo servisą, kad būtų gauti sugeneruoti aktai apie naujo studento užregistravimą sistemoje, ir laukiama atsakymo. Dokumentų servisas sugeneravęs dokumentą grąžintų atsakymą apie sėkmingą
+  dokumento sugeneravimą.
+	\item Gavus atsakymą iš dokumentų serviso, siunčiama užklausa į tvarkaraščių generavimo servisą ir laukiama atsakymo. Tvarkaraščių generavimo servisas formuoja studento tvarkaraštį ir grąžina atsakymą apie sėkmingą resurso sukūrimą.
+	\item Po sėkmingo tarkaraščio sugeneravimo siunčiama užklausą į elektroninių laiškų servisą, siekiant informuoti naujo studento būsimus dėstytojus apie
+  naują užsiėmimų dalyvį. Elektroninių laiškų servisas išsiuntęs visus laiškus grąžina atsakymą apie sėkmingai užbaigtą darbą.
+  \item Be sistemos sutrikimų sėkmingai įvykdžius visus procesus, servisas atsakingas už studentų duomenų tvarkymą užbaigia naujo studento kūrimo procesą.
+\end{enumerate}
+
+Tokią veiksmų seką vaizdžiai parodo tokia ši schema, kur veiksmai vyksta paeiliui, o ne lygiagrečiai (\ref{img:synchronous-microservices-scheme} pav.):
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/synchronous-microservices-scheme}
+  \caption{Sinchroninio komunikavimo mikroservisuose schema.}
+  \label{img:synchronous-microservices-scheme}
+\end{figure}
+
+\subsection{Sinchroninių integracijų technologijos}
 Būdų realizuoti sinchroninius komunikavimo modelius yra daug. Šiuo metu populiariausi yra du:
 \begin{itemize}
 	\item RESTful saityno tarnybos.
