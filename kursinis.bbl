@@ -45,6 +45,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://arxiv.org/pdf/1905.07997.pdf}}
       \field{langid}{english}
+      \field{note}{tikrinta 2020-04-22}
       \field{title}{A Comparative Review of Microservices and Monolithic Architectures}
       \field{year}{2018}
     \endentry
@@ -74,6 +75,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://arxiv.org/pdf/1709.00333.pdf}}
       \field{langid}{english}
+      \field{note}{tikrinta 2020-05-10}
       \field{title}{Kafka versus RabbitMQ}
       \field{year}{2017}
     \endentry
@@ -128,6 +130,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://arxiv.org/pdf/1606.04036.pdf}}
       \field{langid}{english}
+      \field{note}{tikrinta 2020-04-22}
       \field{title}{Microservices: yesterday, today, and tomorrow}
       \field{year}{2017}
     \endentry
@@ -156,7 +159,7 @@
       \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{29 psl.}
+      \field{note}{tikrinta 2020-04-22}
       \field{title}{Working Effectively with Legacy Code}
       \field{year}{2004}
     \endentry
@@ -186,6 +189,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://martinfowler.com/articles/microservices.html}}
       \field{langid}{english}
+      \field{note}{tikrinta 2020-04-15}
       \field{title}{Microservices}
       \field{year}{2014}
     \endentry
@@ -214,7 +218,7 @@
       \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{1 psl.}
+      \field{note}{tikrinta 2020-05-01}
       \field{title}{Production-Ready Microservices}
       \field{year}{2017}
     \endentry
@@ -247,7 +251,7 @@
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{173 skyrius}
+      \field{note}{tikrinta 2020-04-22}
       \field{title}{Encyclopedia of Multimedia Technology and Networking, Second Edition}
       \field{year}{2009}
     \endentry
@@ -277,6 +281,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://arxiv.org/pdf/1704.00411.pdf}}
       \field{langid}{english}
+      \field{note}{tikrinta 2020-04-22}
       \field{title}{A Survey of Distributed Message Broker Queues}
       \field{year}{2017}
     \endentry
@@ -302,6 +307,7 @@
       \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{tikrinta 2020-05-10}
       \field{title}{Reliable Asynchronous Communication in Distributed Systems}
       \field{type}{mathesis}
       \field{year}{2018}
@@ -327,6 +333,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://octoperf.com/blog/2018/03/26/soap-vs-rest/}}
       \field{langid}{english}
+      \field{note}{tikrinta 2020-04-22}
       \field{title}{SOAP vs REST (WHY COMPARING THEM IS A NONSENSE}
       \field{year}{2018}
     \endentry
@@ -352,6 +359,7 @@
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{tikrinta 2020-05-05}
       \field{title}{Performance and usage comparison between REST and SOAP web services.}
       \field{type}{mathesis}
       \field{year}{2017}
@@ -381,7 +389,7 @@
       \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{39 psl.}
+      \field{note}{tikrinta 2020-04-20}
       \field{title}{Building Microservices: Designing Fine-Grained Systems}
       \field{year}{2015}
     \endentry
@@ -410,7 +418,7 @@
       \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{1 psl.}
+      \field{note}{tikrinta 2020-04-22}
       \field{title}{The Art of UNIX Programming}
       \field{year}{2003}
     \endentry
@@ -435,6 +443,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://arxiv.org/pdf/1912.03715.pdf}}
       \field{langid}{english}
+      \field{note}{tikrinta 2020-05-10}
       \field{title}{A study on Modern Messaging Systems - Kafka, RabbitMQ and NATS Streaming}
       \field{year}{2019}
     \endentry
@@ -463,7 +472,7 @@
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{1 psl.}
+      \field{note}{tikrinta 2020-04-22}
       \field{title}{Enterprise Application Integration}
       \field{year}{2000}
     \endentry
@@ -508,6 +517,7 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture}}
       \field{langid}{english}
+      \field{note}{tikrinta 2020-04-22}
       \field{title}{Communication in a microservice architecture}
       \field{year}{2020}
     \endentry

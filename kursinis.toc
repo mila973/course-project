@@ -36,23 +36,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}Mikroservisų sistemos vidinių integracijų tipai}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Servisų komunikavimas per duomenų bazę}{8}% 
+\contentsline {subsection}{\numberline {2.1.}Tarnybų komunikavimas per duomenų bazę}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Sinchroninės (angl. “synchronous”) integracijos}{9}% 
+\contentsline {section}{\numberline {3.}Sinchroninės (angl. \textit {„synchronous“}) integracijos}{9}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.}Sinchroninių integracijų principas}{9}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.}Sinchroninių integracijų technologijos}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Asinchroninės (angl. “asynchronous”) integracijos}{12}% 
+\contentsline {section}{\numberline {4.}Asinchroninės (angl. \textit {„asynchronous“}) integracijos}{12}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.}Asinchroninių integracijų principas}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Asinchroninių integracijų technologijos}{14}% 
+\contentsline {subsection}{\numberline {4.2.}Asinchroninių integracijų technologijos}{15}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.}Skirtingų integracijų tipų privalumai ir trūkumai}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.}Silpnas sujungimas ir stiprus sąryšis (angl. \textit {„Loose Coupling and High Cohesion“})}{16}% 
+\contentsline {subsection}{\numberline {5.1.}Silpnas sujungimas ir stiprus sanglauda (angl. \textit {„Loose Coupling and High Cohesion“})}{16}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.}Efektyvumas}{16}% 
 \defcounter {refsection}{0}\relax 
@@ -62,11 +62,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.}Įvykių sekos užtikrinimas}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.}Servisų perpanaudojimas}{17}% 
+\contentsline {subsection}{\numberline {5.6.}Tarnybų kompozicija}{17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Tyrimas}{17}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.}Rezultatai ir išvados}{18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{19}% 
+\contentsline {section}{Šaltiniai}{20}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.18)  15 MAY 2020 21:44
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.18)  17 JUN 2020 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1144,11 +1144,11 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'kursinis.bbl' found.
 (./kursinis.bbl
-LaTeX Font Info:    Try loading font information for U+msa on input line 133.
+LaTeX Font Info:    Try loading font information for U+msa on input line 136.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 133.
+LaTeX Font Info:    Try loading font information for U+msb on input line 136.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1197,6 +1197,23 @@ File: img/synchronous-model.png Graphic file (type bmp)
 File: img/synchronous-microservices-scheme.png Graphic file (type bmp)
 <img/synchronous-microservices-scheme.png>
  [10]
+Underfull \hbox (badness 1270) in paragraph at lines 57--61
+\TU/Palemonas(0)/bx/n/12 SOAP saityno tarnybų efektyvumo ir naudojamumo palygin
+imas“ [Mak17] galima teigti,
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 57--61
+\TU/Palemonas(0)/bx/n/12 kad REST yra pranašesnė ir šiame darbe išsiplėsime tik
+ su šiuo architektūriniu stiliumi.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
  []
@@ -1214,7 +1231,7 @@ File: img/asynchronous-microservice-model.png Graphic file (type bmp)
  [14]) (./include/5-compare.tex
 [15] [16
 
-]) (./include/6-summary.tex [17]
+] (./include/5.1-researchTable.tex)) (./include/6-summary.tex [17]
 Underfull \hbox (badness 1565) in paragraph at lines 13--20
 \TU/Palemonas(0)/bx/n/12 pat paminėtas ir apibūdintas komunikavimas per duomenų
  bazę tipas. Apžvelgti dvie-
@@ -1232,17 +1249,15 @@ Underfull \hbox (badness 3386) in paragraph at lines 13--20
 inėse situacijose. Pabaigo-
  []
 
-) [18
 
-]
+Underfull \hbox (badness 1371) in paragraph at lines 13--20
+\TU/Palemonas(0)/bx/n/12 je pateikti pragrindiniai pasirinkimo tarp skirtingų t
+echnologijų aspektai ir priežastys. 
+ []
 
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
+[18
 
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
+]) [19]
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
@@ -1299,29 +1314,31 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[19
 
-] [20] (./kursinis.aux)
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+[20
+
+] [21] (./kursinis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26393 strings out of 492916
- 518355 string characters out of 6133345
- 1017275 words of memory out of 5000000
- 30104 multiletter control sequences out of 15000+600000
- 545336 words of font info for 99 fonts, out of 8000000 for 9000
+ 26402 strings out of 492916
+ 518572 string characters out of 6133345
+ 1017732 words of memory out of 5000000
+ 30107 multiletter control sequences out of 15000+600000
+ 545344 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 67i,12n,96p,879b,7640s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,12n,96p,879b,7641s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on kursinis.pdf (20 pages).
+Output written on kursinis.pdf (21 pages).

@@ -2,69 +2,69 @@
 
 \subsection{Monolitinės sistemos ir mikroservisų atsiradimas}
 Pagal autorių Nicola Dragoni, Saverio Giallorenzo, Alberto Lluch Lafuente, Manuel Mazzara publikuotą straipsnį „Microservices: yesterday, today, and tomorrow“
-\cite{Misc7} jau 1960-iais buvo susiduriama su problemomis susijusiomis su dižiulio masto PĮ kūrimu ir kaip tai projektuoti.
-Buvo kuriama daug būdų kaip tai daryti, ir daug toerijų kaip tūrėtų atrodyti PĮ kodas, ir kaip projektuoti informacines sitemas.
-Daug veliau apie 2000 metus, susiformavo sąvokos „Service-Oriented Computing“ (toliau SOC) ir „Service-Oriented Architecture” (toliau SOA), kurių idėja buvo ir paradigmos buvo apie
-tai, kad aplikacija, arba kitaip pavadinus servisas, turėtų būti atsakingas už konkretaus resursų ar verslo logikos informaciją.
-Šį servisą tūri būti galima pasiekti su konkrečia technologija ir taip komunikuoti ir gauti informaciją. 
-Taigi remiantis jau ankščiau minėtu straipsniu „Microservices: yesterday, today, and tomorrow“ \cite{Mis7} iš SOC ir SOA kiek vėliau susiformavo
+\cite{Misc7} jau 1960-iais buvo susiduriama su problemomis susijusiomis su didžiulio masto PĮ kūrimu ir kaip tai projektuoti.
+Buvo kuriama daug būdų kaip tai daryti, ir daug teorijų kaip tūrėtų atrodyti PĮ kodas, ir kaip projektuoti informacines sistemas.
+Daug vėliau, apie 2000 metus, susiformavo sąvokos „Service-Oriented Computing“ (toliau SOC) ir „Service-Oriented Architecture” (toliau SOA), kurių idėja ir paradigmos buvo apie
+tai, kad programa, arba kitaip pavadinus tarnyba, turėtų būti atsakingas už konkretaus resurso ar verslo logikos informaciją.
+Šią tarnybą turi būti galima pasiekti su konkrečia technologija ir taip komunikuoti ir gauti informaciją. 
+Taigi, remiantis jau ankščiau minėtu straipsniu „Microservices: yesterday, today, and tomorrow“ \cite{Mis7} iš SOC ir SOA kiek vėliau, susiformavo
 mikroservisų idėja ir paradigmos. Pagal Martin Fowler ir James Lewis 2016-ais metais publikuotą straipsnį „Microservices“ \cite{Misc6}
-šis terminas mikroservisai buvo pirmą kartą diskutuotas 2011 metais, Venecijoje vykusiose PĮ kūrimo architektų
-dirbutvėse (angl. \textit{„workshop“}). Po metų ta pati grupė architektų nusprendė, labiausiai tinkantis pavadinimas
+šis terminas „mikroservisai“ buvo pirmą kartą diskutuotas 2011 metais, Venecijoje vykusiose PĮ kūrimo architektų
+dirbtuvėse (angl. \textit{„workshop“}). Po metų, ta pati grupė architektų nusprendė, kad labiausiai tinkantis pavadinimas
 šiam architektūriniam tipui yra mikroservisai (angl. \textit{„microservices“}). Po šiuo terminu slypi daug idėjų ir paradigmų,
-tačiau pagrindinė mintis yra skaidymas dideles sistemos į mažas „granules“ ir mažus servisus.
-Taip pat norint apibūdinti senas sistemas, kurios buvo nedalomos ir sistemą yra paleidžiamas kaip vienas vienetas, atsirado terminas „monolitas“ (angl. \textit{„monolith“}).
-Nors šis terminas ir buvo naudojamas Unix bendruomenės jau ilgą laiką iki mikroservisų susikūrimo.
+tačiau pagrindinė mintis yra skaidymas didelės sistemos į mažas „granules“ ir mažas tarnybas.
+Taip pat norint apibūdinti senas sistemas, kurios buvo nedalomos ir paleidžiamos vienu vykdomuoju paketu, atsirado terminas „monolitas“ (angl. \textit{„monolith“}).
+Šis terminas ir buvo naudojamas Unix bendruomenės jau ilgą laiką iki mikroservisų susikūrimo.
 Remiantis Eric Steven Raymon knyga „The Art of UNIX Programming“ \cite{Bk4}, kuri buvo išleista 2003 metais,
 terminas „monolitas“ buvo naudojamas apibūdinti sistemoms, kurios yra per didelės. Taigi, šie du terminai
-naudojami iki šios apibūdinti informacinių sistemų architektūriniams tipams.
+naudojami iki šiol apibūdinti informacinių sistemų architektūrinėms charakteristikoms.
 \subsection{Mikroservisų pranašumai prieš monolitus}
 Pagrindinius principus ir mikroservisų pranašumus detaliai išdėstė Sam Newman savo knygoje „Building Mircroservices: Designing Fine-Grained Systems“ \cite{Bk2}.
-Šiame leidinyje autorius išgrynina keletą labai svarbių mirkoservisų privalumų.
+Šiame leidinyje autorius išgrynina keletą labai svarbių mikroservisų privalumų.
 \subsubsection{Technologijų nevienalytiškumas (angl. \textit{„Technology Heterogeneity“})}
-Kiekvienas servisas turi atlikti skirtingas funkcijas ir turėti skirtingas atsakomybes. Norint pasiekti
+Kiekviena tarnyba turi atlikti skirtingas funkcijas ir turėti skirtingas atsakomybes. Norint pasiekti
 geriausius rezultatus galima rinktis skirtingas technologijas, kurios būtų geriausiai pritaikytos konkrečiam uždaviniui spręsti.
-Todėl mikroservisuose kiekvieną servisa galim projektuoti skirtingom technologijom, pavyzdžiui skirtingomis programavimo kalbomis.
+Todėl mikroservisuose kiekvieną tarnybą galim projektuoti skirtingomis technologijomis, pavyzdžiui skirtingomis programavimo kalbomis.
 \subsubsection{Atsparumas (angl. \textit{„Resilience“})}
 Atsitikus problemai ir sugriuvus vienai sistemos komponentei, monolitinėje sistemoje tektų perkraudinėti arba taisyti visą sistemą.
-Mikroservisų architektūroje stambių pasikeitimų būtų išvengta ir žlugtų tik vieno serviso veikimas. Tokiu atveju kiti servisai
-apie tai nežinotų ir veiktų toliau, o norint ištaisyti problemą, užtektų sutaisyti ir perkrauti vieną servisą.
+Mikroservisų architektūroje stambių pasikeitimų būtų išvengta ir žlugtų tik vienos tarnybos veikimas. Tokiu atveju kitos tarnybos
+apie tai nežinotų ir veiktų toliau, o norint ištaisyti problemą, užtektų sutaisyti ir perkrauti vieną tarnybą.
 \subsubsection{Plečiamumas (angl. \textit{„Scaling“})}
-Stambioje monolitinėje sistemoje visos plečiamumo ir efektyvumo problemos spendžiamos kartu. Mikroservisų sistemoje
-kievieną tokio tipo problemą sprendžiame atskiruose servisuose. Tokiu atveju servisus, kurie reikalauja mažiau resursų
-galima suteikti mažiau resursų, o sunkesniems ir mažiau efektyviems servisams išskirti daugiau.
-Tačiau verta paminėti, kad mikroservisų sistemos plečiamumas ne visada yra geras, tai aprasšyta
+Stambioje monolitinėje sistemoje visos plečiamumo ir efektyvumo problemos sprendžiamos kartu. Mikroservisų sistemoje
+kiekvieną tokio tipo problemą sprendžiame atskirose tarnybose. Tokiu atveju tarnyboms, kurios reikalauja mažiau resursų
+galima suteikti mažiau, o sunkesnioms ir mažiau efektyvioms tarnyboms išskirti daugiau.
+Tačiau verta paminėti, kad mikroservisų sistemos plečiamumas ne visada yra geras, tai aprašyta
 Omar Al-Debagy ir Peter Martinek straipsnyje „A Comparative Review of Microservices and Monolithic Architecture“ \cite{Misc3}
 \subsubsection{Lengvas diegimas (angl. \textit{„Ease of Deployment“})}
 Vystant PĮ dažnai susiduriama su diegimo problema. Su naujais funkcionalumais reikia iš naujo diegti naują PĮ versiją.
-Monolitinėje sistemoje tenka iš naujo sudiegti visą sistemą, tačiau mikroservisų sistemoje galima sudiegti tik tuos servisus, kurie yra susiję
+Monolitinėje sistemoje tenka iš naujo sudiegti visą sistemą, tačiau mikroservisų sistemoje galima sudiegti tik tas tarnybas, kurios yra susijusios
 su pakeitimais.
 \subsubsection{Organizacinis pasiskirstymas (angl. \textit{„Organizational Allignment“})}
-Dažnai įmonėse prie informacinės sitemos dirba daug žmonių. Jie būna pasiskirstę komandomis ir turi skirtingas atsakomybes.
-Mikroservisų sistemose galima išvengti komunikavimo incidentų ir kiekvienai komandai dirbti su skirtingais servisais.
+Dažnai įmonėse prie informacinės sistemos dirba daug žmonių. Jie būna pasiskirstę komandomis ir turi skirtingas atsakomybes.
+Mikroservisų sistemose galima išvengti komunikavimo incidentų ir kiekvienai komandai dirbti su skirtingomis tarnybomis.
 Tokiu pavydžiu dirba stambi informacinių technologijų (toliau IT) įmonė „Netflix“.
 \subsubsection{Kompozicija (angl. \textit{„Composability“})}
-Įmonės dažnai susiduria su problema, kai tas pats funckionalumas reikalingas keliose informacinėse sistemose.
-Mikroservisų architektūroje, kadangi sistema susideda iš mažų autonomiškų servisų, juos galima atskirti ir perpanaudoti
+Įmonės dažnai susiduriama su problema, kai tas pats funkcionalumas reikalingas keliose informacinėse sistemose.
+Mikroservisų architektūroje, kadangi sistema susideda iš mažų autonomiškų tarnybų, jas galima atskirti ir perpanaudoti
 skirtingose sistemose, arba kitai sistemai suteikti prieigą tik prie konkrečių resursų, o ne visos sistemos.
 \subsubsection{Optimizuotas pakeičiamumas (angl. \textit{„Optimizing for Replaceability“})}
 Dirbant vidutinio dydžio arba didelėse imonėse dažnai susiduriama su problema, kai naudojama sena kodo bazė ir pasenusios technologijos.
-Dažnai tokią sistemą reikia atnaujinti siekiant efektyvumo arba palaikymo paprastumo. Tokiu atveju norint
+Dažnai tokią sistemą reikia atnaujinti siekiant efektyvumo arba palaikymo paprastumo. Tokiu atveju, norint
 atnaujinti bibliotekas arba technologijas, tenka iš naujo perprogramuoti dalį sistemos. Mikroservisų architektūros pagalba,
-tai tampa žymiai papraščiau, kai užtenka perrašyti konkretų servisą, neliečiant likusios informacinės sitemos.
+tai tampa žymiai papraščiau, kai užtenka perrašyti konkrečią tarnybą, neliečiant likusios informacinės sistemos.
 \subsection{Monolitinių sistemų skaidymas į mikroservisus}
 Paskutinį dešimtmetį tapo gan populiaru stambaus mąsto monolitus skaidyti į mikroservisus, tačiau tai nėra taip paprasta.
-Visų pirma skaidant monolitą į atskirus servisus labai svarbu identifikuoti, kokie mažesni servisai bus.
-Serviso riboms apibrėžti panaudosime Micheal C. Feahters knygoje „Working Effectively with Legacy Code“ \cite{Bk5} apibrėžtą terminą
-„siūle“ (angl. \textit{„seam“}).Siūle šiuo atveju yra kodo dalis, kuri yra izoliuota ir autonomiška.
-Siūles ir bus mūsų atskiri mikroservisai.
+Visų pirma skaidant monolitą į atskiras tarnybas labai svarbu identifikuoti, kokios mažesnės tarnybos bus.
+Tarnybų riboms apibrėžti panaudojau Micheal C. Feahters knygoje „Working Effectively with Legacy Code“ \cite{Bk5} apibrėžtą terminą
+„siūlė“ (angl. \textit{„seam“}). Siūlė šiuo atveju yra kodo dalis, kuri yra izoliuota ir autonomiška.
+Siūlės ir bus mūsų atskiri mikroservisai.
 Autorė Susan J. Fowler savo knygoje „Production-Ready Microservices“ \cite{Bk1} aprašė patarimus ir žingsnius,
 kaip reikėtų skaidyti monolitą į mikroservisus. Ji pamini, kad tai reikėtų daryti etapais:
 \begin{enumerate}
-	\item Monolitinę aplikaciją paleisti su tiek kopijų kiek turėsime siūlių.
+	\item Monolitinę programą paleisti su tiek kopijų, kiek turėsime siūlių.
 	\item Išskirstyti kvietimus į kopijas, pagal tai kokias siūles kopijos reprezentuoja.
-	\item Išvalyti aplikacijos kopijas, paliekant tik siūlių funkcionalumą.
+	\item Išvalyti programų kopijas, paliekant tik siūlių funkcionalumą.
 \end{enumerate}
-Verta paminėti, kad po kiekvieno išvardinto žingsnio bus atliekami testavimai, kurie patikrintų
+Verta paminėti, kad po kiekvieno išvardinto žingsnio būtų atliekami regresiniai testavimai, kurie patikrintų
 ar sistema veikia korektiškai.
 

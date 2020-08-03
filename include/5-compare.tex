@@ -1,24 +1,24 @@
 \section{Skirtingų integracijų tipų privalumai ir trūkumai}
 
 
-\subsection{Silpnas sujungimas ir stiprus sąryšis (angl. \textit{„Loose Coupling and High Cohesion“})}
+\subsection{Silpnas sujungimas ir stiprus sanglauda (angl. \textit{„Loose Coupling and High Cohesion“})}
 Sinchronines ir asinchronines integracijas mikroservisuose galima palyginti pagal tai ar tai atitinka pagrindinius mikroservisų
-kriterijus. Pagrindiniai principai pagal kuriuos galima teigti kad servisas yra tinkamai suprojektuotas yra \cite{Bk2}:
+kriterijus. Pagrindiniai principai, pagal kuriuos galima teigti, kad tarnyba yra tinkamai suprojektuota yra \cite{Bk2}:
 
 \begin{itemize}
-  \item Silpnas sujungimas (angl. \textit{„Loose Coupling“}).Tai reiškia, kad kiekvienas servisas turėtų kuo labiau būti nepriklausomas. Jeigu yra daromas pakeitimas servisui, tai turėtų
-  tik jam vienam ir būt atliekamas, nes vienas is pagrindinių mikroservisų privalumų yra galėjimas įdiegtį vieną servisą, nediegiant kitų.
-  \item Stiprus sąryšis (anlg. \textit{„High Cohesion“}).Tai reiškia, kad kievkienas servisas tūretų savo logiką laikyti 
+  \item Silpnas sujungimas (angl. \textit{„Loose Coupling“}).Tai reiškia, kad kiekviena tarnyba turėtų kuo labiau būti nepriklausoma. Jeigu yra daromas pakeitimas tarnybai, tai turėtų
+  tik jai vienai ir būti atliekama, nes vienas is pagrindinių mikroservisų privalumų yra galimybė įdiegti vieną tarnybą, nediegiant kitų.
+  \item Stiprus sąryšis (anlg. \textit{„High Cohesion“}).Tai reiškia, kad kievkiena tarnyba tūrėtų savo logiką laikyti 
   pas save ir atlikti visus su savo atsakomybėmis susijusius procesus.
 \end{itemize}
 
-Šiuose dviejuose aspektuose ryškus asinchroninių integracijų pranašumas. Asinchroninių komunikacijų metu, servisai tiesiog siunčia pranešimus apie procesų pabaigą ir 
-klausosi, kada juos pradėti. Sinchroninės komunikacijos reikalauja žinoti implementacijos detales ir kreiptis į kitus servisus, per klientus arba tiesiogiai.
+Šiuose dviejuose aspektuose ryškus asinchroninių integracijų pranašumas. Asinchroninių komunikacijų metu, tarnybos tiesiog siunčia pranešimus apie procesų pabaigą ir 
+klausosi, kada juos pradėti. Sinchroninės komunikacijos reikalauja žinoti implementacijos detales ir kreiptis į kitas tarnybas, per klientus arba tiesiogiai.
 Dažniausiai asinchroninės komunikacijos visoje sistemoje veikia vienodai.
 
 \subsection{Efektyvumas}
 
-Vienas pagrindinių skirtumų tarp sinchroninių ir asinchroninių integracijų yra blokavimas. Kaip jau minėta ankščiau
+Vienas pagrindinių skirtumų tarp sinchroninių ir asinchroninių integracijų yra blokavimas. Kaip jau minėta ankščiau,
 sinchroninės integracijos yra blokuojančios, priešingai nei asinchroninės. Kaip minima įmonės „Microsoft“
 publikuotame darbe apie mikroservisus ir jų kūrimą su .NET technologija \cite{Misc1} vykdant ilgus ir daug resursų reikalaujančius procesus
 pasitelkiant tokią technologiją kaip RESTful, dėl ilgo atsakymo laukimo galima patirti operacijos laiko pasibaigimus (angl. \textit{„timeouts“})
@@ -33,28 +33,30 @@ efektyvumą ir sutrumpina procesų veikimo laiką.
 Dar vienas labai svarbus faktorius renkantis tarp technologijų yra kompleksiškumas. Kuriant programinę įrangą kompleksiški reikalavimai
 reiškia, kad atsiras daug vietos klaidoms. Klaidos labai stipriai didina gamybos kaštus ir sistemos vartotojų nepasitenkinimą.
 Asinchroninės integracijos yra žymiai sudėtingesnės ir dažniausiai naudojami pranešimų brokeriai reikalauja papildomų 
-implementacijos detalių, kad pavyktų sujungti servisą su brokeriu ir pavyktų klausytis arba publikuoti pranešimus.
+implementacijos detalių, kad pavyktų sujungti tarnybą su brokeriu ir pavyktų klausytis arba publikuoti pranešimus.
 Tokie darbai iš PĮ kūrėjų reikalauja aukštos kvalifikacijos, o tokių darbuotojų, kurie atitiktų reikalavimus,  įmonėms yra daug sunkiau surasti ir įdarbinti.
-Kita vertus sinchroninės servisų kvietimai yra paprasti ir servisų applikacijų programavimo sąsajos būna išlaikomos primityvios ir trivelios.
+Kita vertus sinchroniniai tarnybų kvietimai yra paprasti ir tarnybų programų programavimo sąsajos būna išlaikomos primityvios ir trivialios.
 Tas minima ir David S.Linthicum knygoje „Enterpise Application Integration“ \cite{Bk3}.
 
 \subsection{Veiksmų istorija}
 
 Kuriant dideles informacines sistemas, dažnai reikia atsižvelgti į įvykių registravimą. Dažnas reikalavimas didelėms sistemoms yra veiksmų istorija.
-Tokiems uždaviniams spręsti geriausiai tinka asinchroninės užklausos, nes pasitelkus tokias technologijas kaip pranešimų brokeriai
+Tokiems uždaviniams spręsti geriausiai tinka asinchroninės užklausos, nes pasitelkus tokias technologijas kaip pranešimų brokeriai,
 žinutės ir įvykiai būna saugomi, ypač įvykiais paremtose (angl. \textit{„event-based“}) architektūrose.
-Sinchroninių integracijų metų įvykių istorijos problemą reikia spręsti kitaip ir ji netampa tokia triveli.
+Sinchroninių integracijų metu įvykių istorijos problemą reikia spręsti kitaip ir ji netampa tokia triviali.
 
 \subsection{Įvykių sekos užtikrinimas}
 
 Procesų vykdymai, kaip jau minėta studentų registracija, neretai reikalauja užtikrinimo, kad vienas procesas bus įvykdomas ankščiau už kitą.
 Sinchroninės integracijos yra blokuojamos ir vykdomos paeiliui, todėl šios problemos nelieka, tačiau asinchroninis komunikavimas gali būti 
-lygiagretinamas ir siekiant užtikrinti korektišką eiliškumą reikia įgyvendinti papildomos logiką. Dėl tokių atvejų, lygiagretūs procesai
-tampa dar labiau komplikuoti. Tokiais atvejais asinchroninio komunikavimo metu servisai turi saugot proceso būseną ir užtikrinti veiksmų eiliškumą.
+lygiagretinamas ir siekiant užtikrinti korektišką eiliškumą reikia įgyvendinti papildomą logiką. Dėl tokių atvejų, lygiagretūs procesai
+tampa dar labiau komplikuoti. Tokiais atvejais asinchroninio komunikavimo metu tarnybos turi saugoti proceso būseną ir užtikrinti veiksmų eiliškumą.
 
-\subsection{Servisų perpanaudojimas}
+\subsection{Tarnybų kompozicija}
 
-Vienas iš mikroservisų architektūros privalumų yra išskaidytų servisų perpanaudojimas. Įmonės, kurios užsiima projektiniais darbais,
+Vienas iš mikroservisų architektūros privalumų yra išskaidytų tarnybų perpanaudojimas. Įmonės, kurios užsiima projektiniais darbais,
 neretai siekia kurti tokią PĮ, kuria būtų galima pasiremti arba jos komponentes panaudoti ateities projektuose. Mikroservisai, kurie naudoja 
-sinchronines integracijas būna mažiau surišti su domeno logika ir norint integruoti servisą kitoje informacinėje sistemoje
-neprivaloma taip prisirišti prie technologijų. Tokie servisai įmonėms atneša daug naudos ir sutaupo kaštų ateityje.
+sinchronines integracijas būna mažiau surišti su domeno logika ir norint integruoti tarnybą kitoje informacinėje sistemoje
+neprivaloma taip prisirišti prie technologijų. Tokios tarnybos įmonėms atneša daug naudos ir sutaupo kaštų ateityje.
+
+\input{include/5.1-researchTable}
